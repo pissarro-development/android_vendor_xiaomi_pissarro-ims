@@ -192,7 +192,7 @@ cc_prebuilt_library_shared {
                 "libsource",
                 "libimsma_rtp",
                 "libvt_avsync",
-                "libstagefright_foundation",
+                "libstagefright_foundation-v31",
                 "libvcodec_cap",
                 "liblog",
                 "libc++",
@@ -336,6 +336,33 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libsignal",
                 "libhardware",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_foundation-v31",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libstagefright_foundation-v31.so",
+            ],
+            shared_libs: [
+                "libbinder",
+                "libutils",
+                "libcutils",
+                "liblog",
                 "libc++",
                 "libc",
                 "libm",

@@ -32,7 +32,11 @@ blob_fixups: blob_fixups_user_type = {
     (
         'system/lib64/libsource.so'
     ): blob_fixup()
-        .add_needed('libui_shim.so')
+        .add_needed('libui_shim.so'),
+    (
+        'system/lib64/libmtk_vt_service.so'
+    ): blob_fixup()
+        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v31.so')
 }
 
 module = ExtractUtilsModule(
