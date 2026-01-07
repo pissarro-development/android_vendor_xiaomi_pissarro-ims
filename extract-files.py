@@ -21,6 +21,10 @@ vendor = 'xiaomi'
 dir = 'pissarro-ims' 
 
 blob_fixups: blob_fixups_user_type = {
+    (
+        'system/lib64/libimsma.so'
+    ): blob_fixup()
+        .replace_needed('libsink.so', 'libsink-mtk.so')
 }
 
 module = ExtractUtilsModule(
