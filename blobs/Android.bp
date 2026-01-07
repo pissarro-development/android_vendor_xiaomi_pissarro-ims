@@ -282,6 +282,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system/lib64/libsink-mtk.so",
             ],
             shared_libs: [
+                "libaudioclient_shim",
                 "libbinder",
                 "libcutils",
                 "libgui",
