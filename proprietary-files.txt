@@ -1,1 +1,34 @@
 # Unpinned blobs from pissarro-user 13 TP1A.220624.014 V816.0.17.0.TKTMIXM release-keys
+
+# IMS
+system/priv-app/ImsService/ImsService.apk
+system/framework/mediatek-common.jar
+system/framework/mediatek-framework.jar
+system/framework/mediatek-ims-base.jar
+system/framework/mediatek-ims-common.jar
+system/framework/mediatek-ims-extension-plugin.jar
+system/framework/mediatek-telecom-common.jar
+system/framework/mediatek-telephony-base.jar
+system/framework/mediatek-telephony-common.jar
+system/lib64/libcomutils.so
+system/lib64/libimsma.so
+system/lib64/libimsma_adapt.so
+system/lib64/libimsma_rtp.so
+system/lib64/libimsma_socketwrapper.so
+system/lib64/libsignal.so
+system/lib64/libsink.so
+system/lib64/libsource.so
+system/lib64/libvcodec_cap.so
+system/lib64/libvcodec_capenc.so
+
+# IMS (VideoTelephony)
+system/bin/vtservice
+system/etc/init/init.vtservice.rc
+system/lib64/libmtk_vt_service.so
+system/lib64/libmtk_vt_wrapper.so
+system/lib64/libvt_avsync.so
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+vendor/bin/hw/vtservice_hidl
+vendor/etc/init/init.vtservice_hidl.rc
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
+vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
