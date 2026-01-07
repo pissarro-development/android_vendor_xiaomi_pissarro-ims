@@ -24,6 +24,7 @@ PRODUCT_BOOT_JARS += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    FrameworksResOverlayPissarroIms \
 	TelephonyResOverlayPissarroIms
 
 # Permissions
