@@ -9,5 +9,8 @@ include vendor/xiaomi/pissarro-ims/blobs/BoardConfigVendor.mk
 IMS_PATH := vendor/xiaomi/pissarro-ims
 
 # Properties
+TARGET_SYSTEM_PROP += \
+	$(IMS_PATH)/configs/properties/system.prop
+
 TARGET_VENDOR_PROP += \
 	$(IMS_PATH)/configs/properties/vendor.prop
