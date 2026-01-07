@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     libvt_avsync \
     vendor.mediatek.hardware.videotelephony@1.0 \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
-    vendor.mediatek.hardware.videotelephony@1.0 \
+    vendor.mediatek.hardware.videotelephony@1.0_vendor \
     ImsService \
     mediatek-common \
     mediatek-framework \
