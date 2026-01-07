@@ -1,0 +1,31 @@
+# MTK IMS
+
+## Common
+persist.vendor.ims_support=1
+persist.vendor.mims_support=2
+persist.vendor.mtk_dynamic_ims_switch=1
+persist.vendor.mtk_sim_switch_policy=2
+persist.vendor.mtk.ims.video.enable=1
+
+## VoLTE / ViLTE
+persist.vendor.volte_support=1
+persist.vendor.mtk_ct_volte_support=3
+persist.vendor.mtk.volte.enable=1
+persist.vendor.vilte_support=1
+persist.vendor.mtk.vilte.enable=1
+
+## VoNR / ViNR
+persist.vendor.dbg.vonr_ui_ovr=1
+persist.vendor.vonr_setting_support=1
+persist.vendor.mtk.vonr.enable=1
+persist.vendor.mtk.vinr.enable=1
+
+## VoWiFi / ViWiFi
+persist.vendor.mtk_wfc_support=1
+persist.vendor.wfc.sys_wfc_support=1
+persist.vendor.mtk.wfc.enable=1
+persist.vendor.viwifi_support=1
+persist.vendor.mtk.viwifi.enable=1
+
+## Other
+persist.vendor.dbg.vodata_avail_ovr=1
