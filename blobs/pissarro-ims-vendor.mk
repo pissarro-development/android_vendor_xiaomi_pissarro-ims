@@ -11,7 +11,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
-    vendor.mediatek.hardware.videotelephony@1.0 \
+    vendor.mediatek.hardware.videotelephony@1.0_vendor \
     libcomutils \
     libimsma \
     libimsma_adapt \
