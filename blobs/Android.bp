@@ -320,6 +320,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system/lib64/libsource.so",
             ],
             shared_libs: [
+                "libui_shim",
                 "libbinder",
                 "libcutils",
                 "libgui",
