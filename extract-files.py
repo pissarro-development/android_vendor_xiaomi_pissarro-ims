@@ -22,6 +22,14 @@ dir = 'pissarro-ims'
 
 blob_fixups: blob_fixups_user_type = {
     (
+        'system/priv-app/ImsService/ImsService.apk'
+    ): blob_fixup()
+        .apktool_patch('patches/ImsService.patch'),
+    (
+        'system/framework/mediatek-telephony-base.jar'
+    ): blob_fixup()
+        .apktool_patch('patches/mediatek-telephony-base.patch'),
+    (
         'system/lib64/libimsma.so'
     ): blob_fixup()
         .replace_needed('libsink.so', 'libsink-mtk.so'),
