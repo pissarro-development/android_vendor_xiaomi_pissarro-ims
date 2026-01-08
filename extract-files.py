@@ -24,7 +24,15 @@ blob_fixups: blob_fixups_user_type = {
     (
         'system_ext/etc/init/init.vtservice.rc'
     ): blob_fixup()
-        .regex_replace('/system/', '/system_ext/')
+        .regex_replace('/system/', '/system_ext/'),
+    (
+        'system_ext/framework/mediatek-telephony-base.jar'
+    ): blob_fixup()
+        .apktool_patch('patches/mediatek-telephony-base-Update-APIs.patch'),
+    (
+        'system_ext/priv-app/ImsService/ImsService.apk'
+    ): blob_fixup()
+        .apktool_patch('patches/ImsService-Update-APIs.patch')
 }
 
 module = ExtractUtilsModule(
