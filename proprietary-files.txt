@@ -6,7 +6,6 @@ system/framework/mediatek-common.jar
 system/framework/mediatek-framework.jar
 system/framework/mediatek-ims-base.jar
 system/framework/mediatek-ims-common.jar
-system/framework/mediatek-ims-extension-plugin.jar
 system/framework/mediatek-telecom-common.jar
 system/framework/mediatek-telephony-base.jar
 system/framework/mediatek-telephony-common.jar
