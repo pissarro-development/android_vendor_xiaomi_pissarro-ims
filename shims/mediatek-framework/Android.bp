@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: 2022-2026 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+java_library {
+    name: "mediatek-framework-shim",
+    srcs: ["src/**/*.java"],
+    installable: true,
+    compile_dex: true,
+    platform_apis: true
+}

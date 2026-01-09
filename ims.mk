@@ -20,6 +20,10 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common
 
+# IMS (Jar Shims)
+PRODUCT_BOOT_JARS += \
+    mediatek-framework-shim
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayPissarroIms \
