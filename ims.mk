@@ -17,7 +17,6 @@ PRODUCT_BOOT_JARS += \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
-	mediatek-ims-extension-plugin \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common
