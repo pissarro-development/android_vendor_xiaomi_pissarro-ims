@@ -13,13 +13,11 @@ PRODUCT_PACKAGES += \
 
 # IMS (Jars)
 PRODUCT_BOOT_JARS += \
-    mediatek-common \
-    mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
+    mediatek-telephony-base
+
+$(call inherit-product, hardware/mediatek/frameworks/mediatek-frameworks.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \

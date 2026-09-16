@@ -541,22 +541,6 @@ android_app_import {
 }
 
 dex_import {
-    name: "mediatek-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system/framework/mediatek-common.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-framework",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system/framework/mediatek-framework.jar",
-    ],
-}
-
-dex_import {
     name: "mediatek-ims-base",
     owner: "xiaomi",
     jars: [
@@ -573,26 +557,10 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-telecom-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system/framework/mediatek-telecom-common.jar",
-    ],
-}
-
-dex_import {
     name: "mediatek-telephony-base",
     owner: "xiaomi",
     jars: [
         "proprietary/system/framework/mediatek-telephony-base.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-telephony-common",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system/framework/mediatek-telephony-common.jar",
     ],
 }
 
