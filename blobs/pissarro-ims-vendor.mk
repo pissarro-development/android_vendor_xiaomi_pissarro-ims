@@ -33,3 +33,8 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     vtservice_hidl \
     vtservice
+
+PRODUCT_BOOT_JARS += \
+    system_ext:mediatek-ims-base \
+    system_ext:mediatek-ims-common \
+    system_ext:mediatek-telephony-base

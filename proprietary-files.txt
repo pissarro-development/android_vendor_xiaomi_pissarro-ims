@@ -1,9 +1,9 @@
 # Unpinned blobs from pissarro-user 13 TP1A.220624.014 V816.0.24.0.TKTCNXM release-keys
 
 # IMS
-system/framework/mediatek-ims-base.jar:system_ext/framework/mediatek-ims-base.jar
-system/framework/mediatek-ims-common.jar:system_ext/framework/mediatek-ims-common.jar
-system/framework/mediatek-telephony-base.jar:system_ext/framework/mediatek-telephony-base.jar
+system/framework/mediatek-ims-base.jar:system_ext/framework/mediatek-ims-base.jar;BOOT_JAR
+system/framework/mediatek-ims-common.jar:system_ext/framework/mediatek-ims-common.jar;BOOT_JAR
+system/framework/mediatek-telephony-base.jar:system_ext/framework/mediatek-telephony-base.jar;BOOT_JAR
 system/priv-app/ImsService/ImsService.apk:system_ext/priv-app/ImsService/ImsService.apk
 system/priv-app/MtkGbaService/MtkGbaService.apk:system_ext/priv-app/MtkGbaService/MtkGbaService.apk
 
