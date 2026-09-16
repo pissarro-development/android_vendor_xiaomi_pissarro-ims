@@ -36,7 +36,11 @@ blob_fixups: blob_fixups_user_type = {
     (
         'system_ext/lib64/libimsma.so'
     ): blob_fixup()
-        .replace_needed('libsink.so', 'libsink-mtk.so')
+        .replace_needed('libsink.so', 'libsink-mtk.so'),
+    (
+        'system_ext/lib64/libsink-mtk.so'
+    ): blob_fixup()
+        .add_needed('libaudioclient_shim.so')
 }
 
 module = ExtractUtilsModule(
