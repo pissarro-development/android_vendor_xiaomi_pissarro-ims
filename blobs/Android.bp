@@ -563,6 +563,7 @@ dex_import {
         "proprietary/system_ext/framework/mediatek-ims-base.jar",
     ],
     system_ext_specific: true,
+    use_generic_config: true,
 }
 
 dex_import {
@@ -572,6 +573,7 @@ dex_import {
         "proprietary/system_ext/framework/mediatek-ims-common.jar",
     ],
     system_ext_specific: true,
+    use_generic_config: true,
 }
 
 dex_import {
@@ -581,6 +583,7 @@ dex_import {
         "proprietary/system_ext/framework/mediatek-telephony-base.jar",
     ],
     system_ext_specific: true,
+    use_generic_config: true,
 }
 
 cc_prebuilt_binary {

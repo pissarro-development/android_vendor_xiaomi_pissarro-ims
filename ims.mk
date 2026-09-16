@@ -6,16 +6,10 @@
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/pissarro-ims/blobs/pissarro-ims-vendor.mk)
 
-# IMS (App)
+# IMS
 PRODUCT_PACKAGES += \
     ImsService \
     MtkGbaService
-
-# IMS (Jars)
-PRODUCT_BOOT_JARS += \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telephony-base
 
 $(call inherit-product, hardware/mediatek/frameworks/mediatek-frameworks.mk)
 
