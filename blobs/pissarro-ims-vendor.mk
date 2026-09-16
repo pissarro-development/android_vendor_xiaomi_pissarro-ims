@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     libsignal \
     libsink-mtk \
     libsource \
+    libstagefright_foundation-mtk \
     libvcodec_cap \
     libvcodec_capenc \
     libvt_avsync \
