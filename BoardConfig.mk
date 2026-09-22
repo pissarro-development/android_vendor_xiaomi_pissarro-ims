@@ -14,3 +14,7 @@ TARGET_SYSTEM_PROP += \
 
 TARGET_VENDOR_PROP += \
 	$(IMS_PATH)/configs/properties/vendor.prop
+
+# SEPolicy
+BOARD_VENDOR_SEPOLICY_DIRS += \
+	$(IMS_PATH)/sepolicy/vendor
